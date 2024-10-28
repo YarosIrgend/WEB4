@@ -179,9 +179,9 @@ footer p {
 
     .office-man {
         position: absolute;
-        left: 25%;
+        left: 30%;
         top: 10%;
-        width: 70vw;
+        width: 60vw;
         height: auto;
     }
 
@@ -189,13 +189,13 @@ footer p {
         position: absolute;
         left: 10%;
         top: 42%;
-        width: 52vw;
+        width: 46vw;
         height: auto;
     }
 
     .city {
         position: absolute;
-        width: 52vw;
+        width: 46vw;
         height: auto;
         top: 62%;
         left: 10%;
@@ -204,7 +204,7 @@ footer p {
     .text {
         left: 10%;
         top: 82%;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 48px;
         width: 50%;
     }
@@ -213,7 +213,7 @@ footer p {
         left: 25%;
         top: 64%;
         width: 45vw;
-        height: 16vh;
+        height: 18vh;
     }
 
     h2 {
@@ -230,9 +230,9 @@ footer p {
 
     .button {
         position: absolute;
-        bottom: -3%;
+        bottom: -6%;
         left: 10%;
-        width: 44vw;
+        width: 41vw;
         font-size: 32px;
     }
 
