@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    min-height: 7vh;
+}
+
+.logo {
+    display: flex;
+    color: #9b9b9b;
+    font-size: 30px;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    left: 20%;
+}
+
+.panel {
+    display: none;
+}
+
+@media (min-width: 1081px) {
+    .panel {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        position: relative;
+        left: 30%;
+    }
+
+    .panel li {
+        display: inline-block;
+        font-size: 14px;
+        margin: 20px;
+    }
+
+    .panel li:last-of-type {
+        color: #eab97d;
+    }
+}
+
+main {
+    display: flex;
+    background-color: #ebeff2;
+    flex-grow: 1;
+    height: auto;
+}
+
+.city {
+    position: absolute;
+    left: 47%;
+    top: 20%
+}
+
+.meeting {
+    position: absolute;
+    left: 27%;
+    bottom: 20%;
+}
+
+.office-man {
+    position: absolute;
+    left: 32%;
+    top: 28%;
+}
+
+.text {
+    position: absolute;
+    left: 47%;
+    top: 57%;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 20px;
+    width: 18%;
+    color: #515151;
+}
+
+.announcement {
+    background: white;
+    position: absolute;
+    width: 15vw;
+    height: 23vh;
+    left: 62%;
+    top: 29%;
+}
+
+.announcement p {
+    font-size: 12px;
+    margin: 20px;
+    line-height: 24px;
+    color: #515151;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    line-height: 32px;
+}
+
+.button {
+    font-family: Monaco, monospace;
+    position: absolute;
+    left: 47%;
+    bottom: 25%;
+    border: black solid 1px;
+    width: 11%;
+    height: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background: #a2a2a2;
+    transition: all 0.25s ease;
+}
+
+footer {
+    display: flex;
+    height: 13vh;
+    background-color: #323030;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    width: 22%;
+    text-align: center;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+        position: absolute;
+        right: 10%;
+        align-items: center;
+        height: 40px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .line {
+        background-color: black;
+        width: 40px;
+        height: 8px;
+    }
+
+    .logo {
+        left: 10%;
+        font-size: 75px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .office-man {
+        position: absolute;
+        left: 25%;
+        top: 10%;
+        width: 70vw;
+        height: auto;
+    }
+
+    .meeting {
+        position: absolute;
+        left: 10%;
+        top: 42%;
+        width: 52vw;
+        height: auto;
+    }
+
+    .city {
+        position: absolute;
+        width: 52vw;
+        height: auto;
+        top: 62%;
+        left: 10%;
+    }
+
+    .text {
+        left: 10%;
+        top: 82%;
+        font-size: 32px;
+        line-height: 48px;
+        width: 50%;
+    }
+
+    .announcement {
+        left: 25%;
+        top: 64%;
+        width: 45vw;
+        height: 16vh;
+    }
+
+    h2 {
+        font-size: 48px;
+        padding: 30px 0 0 30px;
+        line-height: 52px;
+    }
+
+    .announcement p {
+        font-size: 28px;
+        line-height: 42px;
+        margin-left: 30px;
+    }
+
+    .button {
+        position: absolute;
+        bottom: -3%;
+        left: 10%;
+        width: 44vw;
+        font-size: 32px;
+    }
+
+    footer p {
+        width: 60%;
+        font-size: 28px;
+        line-height: 48px;
+    }
+}
+
